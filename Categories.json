@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "../_Schema/OrderCloudConfig.Schema.json#",
+  "Categories": [
+    {
+      "$requires": [ "Catalogs:catalog1" ],
+      "ID": "category1",
+      "Name": "category1",
+      "CatalogID": "catalog1",
+      "Description": "",
+      "ListOrder": 1,
+      "Active": true,
+      "ParentID": ""
+    }
+  ]
+}

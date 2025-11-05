@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../_Schema/OrderCloudConfig.Schema.json#",
+  "Products": [
+    {
+      "OwnerID": "computer-company",
+      "DefaultPriceScheduleID": null,
+      "AutoForward": false,
+      "ID": "aNPU-5__o022-hfKhNKuBg",
+      "ParentID": null,
+      "IsParent": false,
+      "IsBundle": false,
+      "Name": "Keyboard1",
+      "Description": null,
+      "QuantityMultiplier": 1,
+      "ShipWeight": 1,
+      "ShipHeight": null,
+      "ShipWidth": null,
+      "ShipLength": null,
+      "Active": true,
+      "Inventory": {
+        "Enabled": true,
+        "NotificationPoint": null,
+        "VariantLevelTracking": false,
+        "OrderCanExceed": false,
+        "QuantityAvailable": 30
+      },
+      "DefaultSupplierID": null,
+      "AllSuppliersCanSell": false,
+      "Returnable": false
+    }
+  ]
+}

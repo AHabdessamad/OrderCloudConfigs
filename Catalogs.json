@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "../_Schema/OrderCloudConfig.Schema.json#",
+  "Catalogs": [
+    {
+      "ID": "catalog1",
+      "Name": "catalog1",
+      "Description": "",
+      "Active": true,
+      "CategoryCount": 1
+    }
+  ]
+}
