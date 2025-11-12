@@ -1,0 +1,34 @@
+﻿{
+  "$schema": "../_Schema/OrderCloudConfig.Schema.json#",
+  "Categories": [
+    {
+      "$requires": [ "Catalogs:catalog1" ],
+      "ID": "category1",
+      "Name": "category1",
+      "CatalogID": "catalog1",
+      "Description": "",
+      "ListOrder": 1,
+      "Active": true,
+      "ParentID": "",
+      "xp": null
+    }
+  ],
+  "CategoryAssignments": [
+    {
+      "CatalogID": "catalog1",
+      "CategoryID": "category1",
+      "BuyerID": "buyer1",
+      "UserGroupID": "usergroup1",
+      "Visible": true,
+      "ViewAllProducts": true
+    }
+  ],
+  "ProductAssignments": [
+    {
+      "CatalogID": "catalog1",
+      "CategoryID": "category1",
+      "ProductID": "product1",
+      "ListOrder": 1
+    }
+  ]
+}
